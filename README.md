@@ -13,7 +13,7 @@ https://www.amazon.com.br/b/?ie=UTF8&node=16253312011&pf_rd_p=839aede6-171f-4368
 https://www.atacadodosjogos.com.br/c/nintendo/nintendo-switch/144528-SIT.html
 https://www.cogumeloshop.com.br/jogos/nintendoswitch
 
-Em relação ao código, ele foi feito utiizando o scrapy e coleta as informações de nome do jogo, preço, parcelamento disponível, avaliação e quantidade de avaliações. Esses atributos foram escolhidos pois são importantes na hora de comprar um jogo e seriam de grande influência ao escolher em qual site vale mais a pena comprar o jogo, comparando tais atributos (o site Cogumelo shop possuia pouquíssimas avaliações, então elas não foram coletadas).
+Em relação ao código, ele foi feito utiizando o scrapy e coleta as informações de nome do jogo, preço, parcelamento disponível, avaliação e quantidade de avaliações. Esses atributos foram escolhidos pois são importantes na hora de comprar um jogo e seriam de grande influência ao escolher em qual site vale mais a pena realizar essa compra, comparando tais atributos (o site Cogumelo shop possuia pouquíssimas avaliações, então elas não foram coletadas).
 Como seletores, utilizei tanto o xpath quanto o css, mais por questão de aprendizado, mas majoritariamente utilizei o css, pois achei mais simples de usar.
 
 Foram criados os spiders utilizando a função scrapy genspider NOME_DA_SPIDER URL_DO_SITE, e foram coletados dados utilizando a função parse. Além disso, quando todos os dados de uma página eram coletados, a spider seguia para a página seguinte.
